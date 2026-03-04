@@ -1,0 +1,25 @@
+# Secrets & credentials
+.env
+config.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data & logs
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.log.*
+*.csv
+data/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
