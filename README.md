@@ -83,23 +83,6 @@ Open the dashboard in your browser at `http://localhost:5055` (or 5054 for hourl
 - Daily loss limits are enforced (`MAX_DAILY_LOSS` parameter in each bot)
 - Orders use GTC with a max price cap to limit slippage
 
-## Project Structure
-
-```
-trading-scripts/
-  polymarket/
-    kmeans_15m_trader_v1_live.py   # Main 15m live trader
-    kmeans_hourly_trader_v2_live.py # Hourly live trader
-    cross_day_arb.py                # Cross-day arbitrage
-    elon_tweet_arb.py               # Tweet count arbitrage
-    term_structure_arb.py           # Term structure arbitrage
-    ...                             # Paper traders & backtests
-    .env.example                    # Environment template
-  config.example.py                 # API config template
-  requirements.txt                  # Python dependencies
-  .gitignore
-  README.md
-```
 
 ## Disclaimer
 
