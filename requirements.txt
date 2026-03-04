@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+kneed
+flask
+ccxt
+requests
+python-dotenv
+py-clob-client>=0.34.5
+web3>=7.0.0
+eth-abi
+eth-account
